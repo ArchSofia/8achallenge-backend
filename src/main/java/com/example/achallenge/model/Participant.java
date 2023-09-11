@@ -21,6 +21,8 @@ public class Participant {
     @Column
     private String surname;
     @Column
+    private String email;
+    @Column
     private String country;
     @Column
     private String phone;
